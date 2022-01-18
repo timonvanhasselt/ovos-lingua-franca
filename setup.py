@@ -1,6 +1,18 @@
 import os
+from distutils.command.install import install
 
+import pip
 from setuptools import setup
+
+
+class CustomInstall(install):
+    """Custom handler for the 'install' command."""
+
+    def run(self):
+        # uninstall lingua_franca
+        # the whole purpose of this package is to replace it
+        pip.main(["uninstall", "lingua_franca", "-y"])
+        super().run()
 
 
 def package_files(directory):
@@ -26,17 +38,18 @@ with open("readme.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='lingua_franca',
-    version='0.4.2',
+    name='ovos-lingua-franca',
+    version='0.4.3a1',
     packages=['lingua_franca', 'lingua_franca.lang'],
-    url='https://github.com/MycroftAI/lingua-franca',
+    cmdclass={'install': CustomInstall},
+    url='https://github.com/OpenVoiceOS/lingua_plus',
     license='Apache2.0',
     package_data={'': extra_files},
     include_package_data=True,
     install_requires=required('requirements.txt'),
-    author='Mycroft AI',
-    author_email='dev@mycroft.ai',
-    description='Mycroft\'s multilingual text parsing and formatting library',
+    author='Mycroft AI / OVOS',
+    author_email='jarbasai@mailfence.com',
+    description='OpenVoiceOS\'s multilingual text parsing and formatting library',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[

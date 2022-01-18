@@ -1,16 +1,13 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md) [![CLA](https://img.shields.io/badge/CLA%3F-Required-blue.svg)](https://mycroft.ai/cla) [![Team](https://img.shields.io/badge/Team-Languages-violetblue.svg)](https://github.com/MycroftAI/contributors/blob/master/team/Languages.md) ![Status](https://img.shields.io/badge/-Alpha-orange.svg)
+# OpenVoiceOS Lingua Franca
 
-[![Build Status](https://travis-ci.org/MycroftAI/lingua-franca.svg?branch=master)](https://travis-ci.org/MycroftAI/lingua-franca) [![Coverage Status](https://coveralls.io/repos/github/MycroftAI/lingua-franca/badge.svg?branch=master)](https://coveralls.io/github/MycroftAI/lingua-franca?branch=master)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Join chat](https://img.shields.io/badge/Mattermost-join_chat-brightgreen.svg)](https://chat.mycroft.ai/community/channels/languages)
-
-# Lingua Franca
-
-Mycroft's multilingual text parsing and formatting library
+OpenVoiceOS's multilingual text parsing and formatting library
 
 Lingua Franca (_noun_)<br>
 > a framework that is adopted as the common language between speakers with different native tongues</dr>
 
+This project has been forked from mycroft-core, it replaces it!
+
+:warning: `pip install ovos-lingua-franca` will also `pip uninstall lingua-franca -y` :warning:
 
 - [Lingua Franca](#lingua-franca)
   - [Formatting](#formatting)
