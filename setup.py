@@ -42,7 +42,7 @@ setup(
     version='0.4.3a1',
     packages=['lingua_franca', 'lingua_franca.lang'],
     cmdclass={'install': CustomInstall},
-    url='https://github.com/OpenVoiceOS/lingua_plus',
+    url='https://github.com/OpenVoiceOS/ovos-lingua-franca',
     license='Apache2.0',
     package_data={'': extra_files},
     include_package_data=True,
