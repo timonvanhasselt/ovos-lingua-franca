@@ -35,9 +35,9 @@ def required(requirements_file):
 
 
 def get_version():
-    """ Find the version of ovos-core"""
+    """ Find the version of the package"""
     version = None
-    version_file = os.path.join(BASEDIR, 'lingua_franca', 'version', '__init__.py')
+    version_file = os.path.join(BASEDIR, 'lingua_franca', 'version.py')
     major, minor, build, alpha = (None, None, None, None)
     with open(version_file) as f:
         for line in f:
@@ -54,7 +54,7 @@ def get_version():
                     '# END_VERSION_BLOCK' in line):
                 break
     version = f"{major}.{minor}.{build}"
-    if alpha:
+    if alpha and int(alpha) > 0:
         version += f"a{alpha}"
     return version
 
@@ -67,13 +67,13 @@ with open("readme.md", "r") as fh:
 setup(
     name='ovos-lingua-franca',
     version=get_version(),
-    packages=['lingua_franca', 'lingua_franca.lang', 'lingua_franca.version'],
+    packages=['lingua_franca', 'lingua_franca.lang'],
     cmdclass={'install': CustomInstall},
     url='https://github.com/OpenVoiceOS/ovos-lingua-franca',
     license='Apache2.0',
     package_data={'': extra_files},
     include_package_data=True,
-    install_requires=required('requirements.txt'),
+    install_requires=required('requirements/requirements.txt'),
     author='Mycroft AI / OVOS',
     author_email='jarbasai@mailfence.com',
     description='OpenVoiceOS\'s multilingual text parsing and formatting library',
