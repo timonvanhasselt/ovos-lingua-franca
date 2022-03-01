@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+## [V0.4.3a4](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.3a4) (2022-02-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/0.4.3a1...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/0.4.3a1...V0.4.3a4)
 
 **Fixed bugs:**
 
@@ -16,19 +16,19 @@
 
 ## [0.4.3a1](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/0.4.3a1) (2022-01-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/release/v0.4.2...0.4.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/v0.4.2...0.4.3a1)
 
 **Fixed bugs:**
 
 - port timezone fixes for time utils [\#1](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/1) ([NeonJarbas](https://github.com/NeonJarbas))
 
-## [release/v0.4.2](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/release/v0.4.2) (2021-05-10)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/v0.4.2...release/v0.4.2)
-
 ## [v0.4.2](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/v0.4.2) (2021-05-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/release/v0.4.1...v0.4.2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/release/v0.4.2...v0.4.2)
+
+## [release/v0.4.2](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/release/v0.4.2) (2021-05-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/release/v0.4.1...release/v0.4.2)
 
 ## [release/v0.4.1](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/release/v0.4.1) (2021-05-05)
 
