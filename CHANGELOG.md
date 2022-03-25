@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.3...HEAD)
+
+**Implemented enhancements:**
+
+- feat/more\_contractions [\#6](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/6) ([NeonJarbas](https://github.com/NeonJarbas))
+
+## [V0.4.3](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.3) (2022-02-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.3a4...V0.4.3)
+
 ## [V0.4.3a4](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.3a4) (2022-02-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/0.4.3a1...V0.4.3a4)
