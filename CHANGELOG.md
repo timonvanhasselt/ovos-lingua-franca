@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.3...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a1...HEAD)
+
+**Merged pull requests:**
+
+- bump python-dateutil to latest version [\#19](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.4.4a1](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.4a1) (2022-03-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.3...V0.4.4a1)
 
 **Implemented enhancements:**
 
