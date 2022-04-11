@@ -2,7 +2,16 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a2...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a3...HEAD)
+
+**Fixed bugs:**
+
+- extract datetime fails when only month supplied [\#13](https://github.com/OpenVoiceOS/ovos-lingua-franca/issues/13)
+- fix MycroftAI/lingua-franca/issues/20 [\#10](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/10) ([NeonJarbas](https://github.com/NeonJarbas))
+
+## [V0.4.4a3](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.4a3) (2022-04-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a2...V0.4.4a3)
 
 **Fixed bugs:**
 
