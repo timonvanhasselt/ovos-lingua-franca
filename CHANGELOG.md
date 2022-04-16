@@ -1,5 +1,19 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4...HEAD)
+
+**Fixed bugs:**
+
+- extract\_datetime\_en\(\) fails silently on "\<of this/next/last\> \<year/month/week\>" [\#15](https://github.com/OpenVoiceOS/ovos-lingua-franca/issues/15)
+- fix/ in a XX + XX ago + XX later [\#14](https://github.com/OpenVoiceOS/ovos-lingua-franca/issues/14)
+- fix MycroftAI/lingua-franca/issues/59 + 225 [\#11](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/11) ([NeonJarbas](https://github.com/NeonJarbas))
+
+## [V0.4.4](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.4) (2022-04-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a5...V0.4.4)
+
 ## [V0.4.4a5](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.4a5) (2022-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a4...V0.4.4a5)
@@ -29,7 +43,7 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.4a1...V0.4.4a2)
 
-**Merged pull requests:**
+**Fixed bugs:**
 
 - bump python-dateutil to latest version [\#19](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/19) ([JarbasAl](https://github.com/JarbasAl))
 
