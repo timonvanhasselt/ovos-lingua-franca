@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a1...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...HEAD)
+
+**Implemented enhancements:**
+
+- port/basque  [\#3](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/3) ([NeonJarbas](https://github.com/NeonJarbas))
+
+## [V0.4.5a2](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5a2) (2022-04-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a1...V0.4.5a2)
 
 **Implemented enhancements:**
 
