@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+## [V0.4.5a3](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5a3) (2022-04-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...V0.4.5a3)
 
 **Implemented enhancements:**
 
