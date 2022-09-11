@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5...HEAD)
+
+**Implemented enhancements:**
+
+- feat/extract\_yes\_no [\#30](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/30) ([JarbasAl](https://github.com/JarbasAl))
+
+**Merged pull requests:**
+
+- notify matrix chat on PR merged [\#23](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/23) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.4.5](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5) (2022-04-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a3...V0.4.5)
+
 ## [V0.4.5a3](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5a3) (2022-04-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...V0.4.5a3)
