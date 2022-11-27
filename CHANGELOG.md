@@ -2,7 +2,22 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a1...HEAD)
+
+**Fixed bugs:**
+
+- port catalan fixes [\#32](https://github.com/OpenVoiceOS/ovos-lingua-franca/issues/32)
+- port MycroftAI/lingua-franca/pull/241 [\#33](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/33) ([JarbasAl](https://github.com/JarbasAl))
+
+**Merged pull requests:**
+
+- fix inconsitency in nice\_time\_de [\#36](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/36) ([emphasize](https://github.com/emphasize))
+- split parse tests into logical classes [\#35](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/35) ([JarbasAl](https://github.com/JarbasAl))
+- license + vulnerability tests [\#31](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/31) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.4.6a1](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a1) (2022-09-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5...V0.4.6a1)
 
 **Implemented enhancements:**
 
