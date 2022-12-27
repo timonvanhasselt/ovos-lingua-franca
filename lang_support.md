@@ -178,7 +178,7 @@
 |----------|----------|---------|
 |  parse  |  extract_numbers  |  True  |
 |  parse  |  extract_number  |  True  |
-|  parse  |  extract_duration  |  False  |
+|  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
 |  parse  |  extract_langcode  |  False  |
 |  parse  |  normalize  |  True  |
@@ -328,7 +328,7 @@
 |----------|----------|---------|
 |  parse  |  extract_numbers  |  False  |
 |  parse  |  extract_number  |  True  |
-|  parse  |  extract_duration  |  False  |
+|  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
 |  parse  |  extract_langcode  |  False  |
 |  parse  |  normalize  |  True  |
