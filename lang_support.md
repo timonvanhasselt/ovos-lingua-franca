@@ -55,7 +55,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  False  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  True  |
 |  parse  |  yes_or_no  |  True  |
@@ -67,7 +67,7 @@
 |  format  |  nice_date_time  |  True  |
 |  format  |  nice_year  |  True  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  False  |
 |  format  |  nice_duration  |  True  |
 
@@ -130,7 +130,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  False  |
 |  parse  |  yes_or_no  |  True  |
@@ -142,7 +142,7 @@
 |  format  |  nice_date_time  |  True  |
 |  format  |  nice_year  |  True  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  True  |
 |  format  |  nice_duration  |  True  |
 
@@ -180,7 +180,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  True  |
 |  parse  |  yes_or_no  |  True  |
@@ -192,7 +192,7 @@
 |  format  |  nice_date_time  |  False  |
 |  format  |  nice_year  |  False  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  False  |
 |  format  |  nice_duration  |  True  |
 
@@ -205,7 +205,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  False  |
 |  parse  |  yes_or_no  |  True  |
@@ -217,7 +217,7 @@
 |  format  |  nice_date_time  |  True  |
 |  format  |  nice_year  |  True  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  False  |
 |  format  |  nice_duration  |  True  |
 
@@ -280,7 +280,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  False  |
 |  parse  |  yes_or_no  |  True  |
@@ -292,7 +292,7 @@
 |  format  |  nice_date_time  |  True  |
 |  format  |  nice_year  |  True  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  True  |
 |  format  |  nice_duration  |  True  |
 
@@ -330,7 +330,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  True  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  True  |
 |  parse  |  yes_or_no  |  True  |
@@ -342,7 +342,7 @@
 |  format  |  nice_date_time  |  False  |
 |  format  |  nice_year  |  False  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  False  |
 |  format  |  nice_duration  |  True  |
 
@@ -455,7 +455,7 @@
 |  parse  |  extract_number  |  True  |
 |  parse  |  extract_duration  |  False  |
 |  parse  |  extract_datetime  |  True  |
-|  parse  |  extract_langcode  |  False  |
+|  parse  |  extract_langcode  |  True  |
 |  parse  |  normalize  |  True  |
 |  parse  |  get_gender  |  True  |
 |  parse  |  yes_or_no  |  True  |
@@ -467,6 +467,6 @@
 |  format  |  nice_date_time  |  True  |
 |  format  |  nice_year  |  True  |
 |  format  |  pronounce_number  |  True  |
-|  format  |  pronounce_lang  |  False  |
+|  format  |  pronounce_lang  |  True  |
 |  format  |  nice_response  |  False  |
 |  format  |  nice_duration  |  True  |
