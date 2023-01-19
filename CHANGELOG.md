@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a5...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a6...HEAD)
+
+**Merged pull requests:**
+
+- Remove dependency on pip and add obsoletes keyword. [\#52](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/52) ([gmsoft-tuxicoman](https://github.com/gmsoft-tuxicoman))
+
+## [V0.4.6a6](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a6) (2022-12-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a5...V0.4.6a6)
 
 **Implemented enhancements:**
 
