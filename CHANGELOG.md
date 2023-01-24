@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a6...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a7...HEAD)
+
+**Merged pull requests:**
+
+- Mark build releases as pre-releases to maintain the pattern of releases with new language support [\#53](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/53) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [V0.4.6a7](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a7) (2023-01-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a6...V0.4.6a7)
 
 **Merged pull requests:**
 
