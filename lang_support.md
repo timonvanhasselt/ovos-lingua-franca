@@ -28,6 +28,7 @@
 - [sv-se](#sv)
 - [fa-ir](#fa)
 - [eu-eu](#eu)
+- [uk-uk](#uk)
        
 ### az
 
@@ -531,3 +532,31 @@
 |  format  |  nice_response  |  :x:  |
 |  format  |  describe_color  |  :x:  |
 |  format  |  nice_duration  |  :construction:  |
+
+       
+### uk
+
+|  module  |  method  | status  |
+|----------|----------|---------|
+|  parse  |  extract_numbers  |  :heavy_check_mark:  |
+|  parse  |  extract_number  |  :heavy_check_mark:  |
+|  parse  |  extract_duration  |  :heavy_check_mark:  |
+|  parse  |  extract_datetime  |  :heavy_check_mark:  |
+|  parse  |  extract_langcode  |  :x:  |
+|  parse  |  normalize  |  :heavy_check_mark:  |
+|  parse  |  get_gender  |  :x:  |
+|  parse  |  yes_or_no  |  :heavy_check_mark:  |
+|  parse  |  is_fractional  |  :heavy_check_mark:  |
+|  parse  |  extract_color_spans  |  :x:  |
+|  parse  |  get_color  |  :x:  |
+|  parse  |  is_ordinal  |  :x:  |
+|  format  |  nice_number  |  :heavy_check_mark:  |
+|  format  |  nice_time  |  :heavy_check_mark:  |
+|  format  |  nice_date  |  :heavy_check_mark:  |
+|  format  |  nice_date_time  |  :heavy_check_mark:  |
+|  format  |  nice_year  |  :heavy_check_mark:  |
+|  format  |  pronounce_number  |  :heavy_check_mark:  |
+|  format  |  pronounce_lang  |  :x:  |
+|  format  |  nice_response  |  :x:  |
+|  format  |  describe_color  |  :x:  |
+|  format  |  nice_duration  |  :heavy_check_mark:  |
