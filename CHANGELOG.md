@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.7...HEAD)
+
+**Merged pull requests:**
+
+- Format uk [\#50](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/50) ([NeonMariia](https://github.com/NeonMariia))
+
+## [V0.4.7](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.7) (2023-02-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.7a1...V0.4.7)
+
 ## [V0.4.7a1](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.7a1) (2023-02-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6...V0.4.7a1)
@@ -18,19 +30,15 @@
 
 ## [V0.4.6a7](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a7) (2023-01-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a6...V0.4.6a7)
-
-**Merged pull requests:**
-
-- Remove dependency on pip and add obsoletes keyword. [\#52](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/52) ([gmsoft-tuxicoman](https://github.com/gmsoft-tuxicoman))
-
-## [V0.4.6a6](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a6) (2022-12-27)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a5...V0.4.6a6)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.6a5...V0.4.6a7)
 
 **Implemented enhancements:**
 
 - Feat/color utils [\#45](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/45) ([JarbasAl](https://github.com/JarbasAl))
+
+**Merged pull requests:**
+
+- Remove dependency on pip and add obsoletes keyword. [\#52](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/52) ([gmsoft-tuxicoman](https://github.com/gmsoft-tuxicoman))
 
 ## [V0.4.6a5](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.6a5) (2022-12-27)
 
@@ -92,11 +100,7 @@
 
 ## [V0.4.5](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5) (2022-04-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a3...V0.4.5)
-
-## [V0.4.5a3](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.5a3) (2022-04-16)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...V0.4.5a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.5a2...V0.4.5)
 
 **Implemented enhancements:**
 
