@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a4...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a5...HEAD)
+
+**Merged pull requests:**
+
+- Fix typo in `uk-ua` language code [\#62](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/62) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [V0.4.8a5](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a5) (2023-08-21)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a4...V0.4.8a5)
 
 **Implemented enhancements:**
 
