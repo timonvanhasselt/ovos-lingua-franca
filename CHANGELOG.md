@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a7...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a8...HEAD)
+
+**Implemented enhancements:**
+
+- feat/ovos\_defaults [\#68](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/68) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.4.8a8](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a8) (2024-05-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a7...V0.4.8a8)
 
 **Merged pull requests:**
 
