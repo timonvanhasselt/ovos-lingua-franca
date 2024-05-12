@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a6...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a7...HEAD)
+
+**Merged pull requests:**
+
+- feat: add basic English colors [\#70](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/70) ([builderjer](https://github.com/builderjer))
+
+## [V0.4.8a7](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a7) (2023-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a6...V0.4.8a7)
 
 **Implemented enhancements:**
 
