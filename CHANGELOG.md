@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a11...HEAD)
+
+**Closed issues:**
+
+- Newest versions not on PyPi [\#71](https://github.com/OpenVoiceOS/ovos-lingua-franca/issues/71)
+
+**Merged pull requests:**
+
+- Update pip-audit to latest version [\#73](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/73) ([NeonDaniel](https://github.com/NeonDaniel))
+- Resolve build test automation failures [\#72](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/72) ([NeonDaniel](https://github.com/NeonDaniel))
+- Rebased UK Parse PR [\#56](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/56) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [V0.4.8a11](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a11) (2024-05-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a10...V0.4.8a11)
+
 ## [V0.4.8a10](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a10) (2024-05-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a9...V0.4.8a10)
