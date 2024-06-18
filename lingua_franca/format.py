@@ -240,7 +240,6 @@ class DateTimeFormat:
             dt.year, number_tuple, lang, formatted_decade, formatted_hundreds)
 
         s = self._format_string(dt.year, 'year_format', lang)
-
         return re.sub(' +', ' ',
                       s.format(
                           year=str(dt.year),

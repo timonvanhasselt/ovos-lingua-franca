@@ -329,12 +329,11 @@ class TestNiceDateFormat(unittest.TestCase):
         # Read date_time_test.json files for test data
         cls.test_config = {}
         p = Path(date_time_format.config_path)
-        print(p)
+        # print(p)
         for sub_dir in [x for x in p.iterdir() if x.is_dir()]:
-            print(sub_dir)
+            # print(sub_dir)
             if (sub_dir / "date_time_test.json").exists():
-                print("Loading test for " +
-                      str(sub_dir / "date_time_test.json"))
+                # print(f"Loading test for {sub_dir}/date_time_test.json")
                 with (sub_dir / "date_time_test.json").open() as f:
                     cls.test_config[sub_dir.parts[-1]] = json.loads(f.read())
 
@@ -349,7 +348,7 @@ class TestNiceDateFormat(unittest.TestCase):
         self.assertEqual(nice_time(dt, use_24hour=False),
                          "перша година двадцять два")
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "перша година двадцять два дня")
+                         "перша година дня двадцять два")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False),
                          "1:22")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False, use_ampm=True),
@@ -389,7 +388,7 @@ class TestNiceDateFormat(unittest.TestCase):
         self.assertEqual(nice_time(dt, use_24hour=False),
                          "перша година нуль два")
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "перша година нуль два дня")
+                         "перша година дня нуль два")
         self.assertEqual(nice_time(dt, use_24hour=False, speech=False),
                          "1:02")
         self.assertEqual(nice_time(dt, use_24hour=False, speech=False, use_ampm=True),
@@ -409,7 +408,7 @@ class TestNiceDateFormat(unittest.TestCase):
         self.assertEqual(nice_time(dt, use_24hour=False),
                          "дванадцята година нуль два")
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "дванадцята година нуль два ночі")
+                         "дванадцята година ночі нуль два")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False),
                          "12:02")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False, use_ampm=True),
@@ -429,7 +428,7 @@ class TestNiceDateFormat(unittest.TestCase):
         self.assertEqual(nice_time(dt, use_24hour=False),
                          "перша година нуль два")
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "перша година нуль два ночі")
+                         "перша година ночі нуль два")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False),
                          "1:02")
         self.assertEqual(nice_time(dt, speech=False, use_24hour=False, use_ampm=True),
@@ -449,12 +448,12 @@ class TestNiceDateFormat(unittest.TestCase):
         self.assertEqual(nice_time(dt, use_24hour=False),
                          "чверть після дванадцятої години")
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "чверть після дванадцятої години дня")
+                         "чверть після дванадцятої години")
 
         dt = datetime.datetime(2017, 1, 31,
                                5, 30, 00, tzinfo=default_timezone())
         self.assertEqual(nice_time(dt, use_24hour=False, use_ampm=True),
-                         "половина після п'ятої години ранку")
+                         "половина після п'ятої години")
 
         dt = datetime.datetime(2017, 1, 31,
                                1, 45, 00, tzinfo=default_timezone())
@@ -464,7 +463,7 @@ class TestNiceDateFormat(unittest.TestCase):
     def test_nice_date(self):
         lang = "uk-ua"
         i = 1
-        print(self.test_config[lang]["test_nice_date"].get(str(i)))
+        # print(self.test_config[lang]["test_nice_date"].get(str(i)))
         while (self.test_config[lang].get("test_nice_date") and
                self.test_config[lang]["test_nice_date"].get(str(i))):
             p = self.test_config[lang]["test_nice_date"][str(i)]
@@ -476,8 +475,8 @@ class TestNiceDateFormat(unittest.TestCase):
             now = None if not np else datetime.datetime(
                 np[0], np[1], np[2], np[3], np[4], np[5],
                 tzinfo=default_timezone())
-            print("Testing for " + lang + " that " + str(dt) +
-                  " is date " + p["assertEqual"])
+            # print("Testing for " + lang + " that " + str(dt) +
+            #       " is date " + p["assertEqual"])
             self.assertEqual(p["assertEqual"],
                              nice_date(dt, lang=lang, now=now))
             i = i + 1
@@ -503,8 +502,8 @@ class TestNiceDateFormat(unittest.TestCase):
                 tzinfo=default_timezone())
             now = None if not np else datetime.datetime(
                 np[0], np[1], np[2], np[3], np[4], np[5])
-            print("Testing for " + lang + " that " + str(dt) +
-                  " is date time " + p["assertEqual"])
+            # print("Testing for " + lang + " that " + str(dt) +
+            #       " is date time " + p["assertEqual"])
             self.assertEqual(
                 p["assertEqual"],
                 nice_date_time(
@@ -519,20 +518,20 @@ class TestNiceDateFormat(unittest.TestCase):
         while (self.test_config[lang].get("test_nice_year") and
                self.test_config[lang]["test_nice_year"].get(str(i))):
             p = self.test_config[lang]["test_nice_year"][str(i)]
-            print(p)
+            # print(p)
             dp = ast.literal_eval(p["datetime_param"])
             dt = datetime.datetime(
                 dp[0], dp[1], dp[2], dp[3], dp[4], dp[5],
                 tzinfo=default_timezone())
-            print("Testing for " + lang + " that " + str(dt) +
-                  " is year " + p["assertEqual"])
+            # print("Testing for " + lang + " that " + str(dt) +
+            #           " is year " + p["assertEqual"])
             self.assertEqual(p["assertEqual"], nice_year(
                 dt, lang=lang, bc=ast.literal_eval(p["bc"])))
             i = i + 1
 
         # Test all years from 0 to 9999 for all languages,
         # that some output is produced
-        print("Test all years in " + lang)
+        # print("Test all years in " + lang)
         for i in range(1, 9999):
             dt = datetime.datetime(i, 1, 31, 13, 2, 3,
                                    tzinfo=default_timezone())
