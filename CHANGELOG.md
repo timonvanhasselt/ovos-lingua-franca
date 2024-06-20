@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a11...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a12...HEAD)
+
+**Merged pull requests:**
+
+- Update common\_data\_nl.py [\#74](https://github.com/OpenVoiceOS/ovos-lingua-franca/pull/74) ([timonvanhasselt](https://github.com/timonvanhasselt))
+
+## [V0.4.8a12](https://github.com/OpenVoiceOS/ovos-lingua-franca/tree/V0.4.8a12) (2024-06-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lingua-franca/compare/V0.4.8a11...V0.4.8a12)
 
 **Closed issues:**
 
